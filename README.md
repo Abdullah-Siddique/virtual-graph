@@ -1,6 +1,4 @@
-# Virtual Graph
 
-![Project Logo](path/to/logo.png) <!-- Optional: Add your project logo here -->
 
 ## Table of Contents
 - [Description](#description)
