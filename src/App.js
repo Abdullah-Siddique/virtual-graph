@@ -55,8 +55,12 @@ function App() {
   return (
     <div className="App">
       <h1 className="app-title">Virtual Graph System</h1>
-      <p className="subtitle">What do you want to calculate?</p>
-      
+      <p className="subtitle">
+  What do you want to calculate?(Area/Line)<br />
+  Please don't change the number of points after entering once.<br />
+  If you have to calculate again, click on the<br />
+  "Go Back" button and start again.
+</p>
       <div className="button-group">
         <button className={`button ${choice === 'Line' ? 'active' : ''}`} onClick={() => setChoice('Line')}>
           Line
