@@ -1,0 +1,102 @@
+/* General Page Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6); /* Gradient background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Space between title, buttons, and footer */
+  align-items: center; /* Center align content */
+  height: 100vh; /* Full viewport height */
+  color: #333; /* Text color for better visibility */
+}
+
+/* Title and Subtitle Styling */
+.app-title {
+  font-size: 2.5rem; /* Increased size for emphasis */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+  text-align: center;
+  margin-top: 20px; /* Top margin for spacing */
+}
+
+.subtitle {
+  font-size: 1.3rem; /* Slightly larger than normal text */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button Group Styling */
+.button-group {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center align buttons */
+  flex-grow: 1; /* Allow button group to grow and take available space */
+}
+
+/* Button Styling */
+.button {
+  margin: 10px;
+  padding: 15px 30px; /* Larger padding for bigger buttons */
+  background-color: #ff6f61; /* Vibrant color */
+  color: white;
+  border: none;
+  border-radius: 25px; /* More rounded corners */
+  font-size: 18px; /* Larger font size */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for effects */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Button Hover and Active State Styles */
+.button:hover {
+  background-color: #ff4a32; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.button.active {
+  background-color: #007bff; /* Different color for active state */
+  border: 2px solid #004085; /* Optional: add a border for emphasis */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow for active state */
+}
+
+footer {
+  background-color: #007bff; /* Background color */
+  color: white; /* Text color */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Padding for spacing */
+  width: 100%; /* Full width */
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+footer h4 {
+  margin: 5px 0; /* Space out header text */
+}
+
+footer a {
+  color: #ffeb3b; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .app-title {
+    font-size: 2rem; /* Smaller title on mobile */
+    margin-top: 10px; /* Reduce top margin for mobile */
+  }
+
+  .subtitle {
+    font-size: 1rem; /* Smaller subtitle on mobile */
+  }
+
+  .button {
+    padding: 10px 20px; /* Adjust button padding for mobile */
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+}
+

@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button.active {
+  background-color: #0056b3; /* Different color for active state */
+  border: 2px solid #004085; /* Optional: add a border for emphasis */
+}
+
+
+
+
+
