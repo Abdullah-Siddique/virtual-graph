@@ -28,3 +28,6 @@ To get started with Virtual Graph, follow these steps:
    ```bash
    git clone https://github.com/Abdullah-Siddique/virtual-graph.git
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
